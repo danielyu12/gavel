@@ -28,7 +28,7 @@ email_password: _unused_
 #
 # this is used to prevent tampering with sessions. this should be some
 # reasonably long random string.
-secret_key: _unused_
+secret_key: fja;lskdfja;sdfkj;lkj
 
 #####################
 # Optional Settings #
