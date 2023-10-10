@@ -55,7 +55,7 @@ proxy: null
 
 # can also be specified as the 'DATABASE_URL' or 'DB_URI' environment variable
 # defaults to 'postgresql://localhost/gavel'
-db_uri: postgres://gavel_test_user:q9FFr1Ex6E6hd54Z4SK96kso3CpmiC5f@dpg-ckibvu212bvs73fjufp0-a/gavel_test
+db_uri: postgres://gavel_test_user:q9FFr1Ex6E6hd54Z4SK96kso3CpmiC5f@dpg-ckibvu212bvs73fjufp0-a.oregon-postgres.render.com/gavel_test
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
