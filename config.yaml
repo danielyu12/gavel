@@ -16,13 +16,13 @@ email_from: daniel.yu2022@gmail.com
 # this is the username that'll be used for SMTP authentication. if you are
 # setting DISABLE_EMAIL, you can set this setting to '_unused_' (or anything
 # else).
-email_user: _unused_
+email_user: daniel.yu2022@gmail.com
 
 # can also be specified as the 'EMAIL_PASSWORD' environment variable
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_password: _unused_
+email_password: vtpp qoil mphm jtcf
 
 # can also be specified as the 'SECRET_KEY' environment variable
 #
@@ -59,7 +59,7 @@ db_uri: postgres://bostonhacks_gavel_user:01XNixzrvowHYJGc9XGZnbkHHs9WzAJM@dpg-c
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
-broker_uri: null
+broker_uri: redis://red-ckm5nm0u1l6c73f4c0f0:6379
 
 # can also be specified as the 'USE_SENDGRID' environment variable
 # defaults to 'False'
@@ -92,28 +92,28 @@ timeout: null
 #
 # this is the welcome message that's shown to judges before they can start
 # using the system. the message is rendered as Markdown.
-welcome_message: null
+welcome_message: Hello!
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_CLOSED_MESSAGE
 #
 # this is the message that's shown to judges when the judging system is closed.
 # the message is rendered as Markdown.
-closed_message: null
+closed_message: Judging Closed
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_DISABLED_MESSAGE
 #
 # this is the message that's shown to judges when their account is disabled.
 # the message is rendered as Markdown.
-disabled_message: null
+disabled_message: Your account is disabled ;-;
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_LOGGED_OUT_MESSAGE
 #
 # this is the message that's shown to judges when they are logged out. the
 # message is rendered as Markdown.
-logged_out_message: null
+logged_out_message: Logged out!
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_WAIT_MESSAGE
@@ -121,7 +121,7 @@ logged_out_message: null
 # this is the message that's shown to judges when they don't have any pending
 # assignments (and can reload the page to check again). the message is rendered
 # as Markdown.
-wait_message: null
+wait_message: please wait
 
 # can also be specified as the 'DISABLE_EMAIL' environment variable
 # defaults to 'False'
@@ -174,7 +174,9 @@ email_subject: null
 # spaces, and text separated by two or more newlines is converted into separate
 # paragraphs. it's recommended to use the YAML multiline string syntax when
 # overriding this.
-email_body: null
+email_body: 'Hello {name}! \n
+... this is a test for judging \n
+... use this link: {link}'
 
 # can also be specified as the 'SEND_STATS' environment variable
 # defaults to 'True'
