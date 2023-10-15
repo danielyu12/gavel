@@ -9,20 +9,20 @@ admin_password: NOcap122020!
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_from: danyu@bu.edu
+email_from: dan.daniel.yu@gmail.com
 
 # can also be specified as the 'EMAIL_USER' environment variable
 #
 # this is the username that'll be used for SMTP authentication. if you are
 # setting DISABLE_EMAIL, you can set this setting to '_unused_' (or anything
 # else).
-email_user: danyu@bu.edu
+email_user: dan.daniel.yu@gmail.com
 
 # can also be specified as the 'EMAIL_PASSWORD' environment variable
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_password: NOcap122020!
+email_password: rkqq svaj ywco zzje
 
 # can also be specified as the 'SECRET_KEY' environment variable
 #
