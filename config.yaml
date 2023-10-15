@@ -175,8 +175,8 @@ email_subject: null
 # paragraphs. it's recommended to use the YAML multiline string syntax when
 # overriding this.
 email_body: 'Hello {name}! \n
-... this is a test for judging \n
-... use this link: {link}'
+..this is a test for judging \n
+..use this link: {link}'
 
 # can also be specified as the 'SEND_STATS' environment variable
 # defaults to 'True'
