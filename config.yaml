@@ -9,20 +9,20 @@ admin_password: NOcap122020!
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_from: daniel.yu2022@gmail.com
+email_from: danyu@bu.edu
 
 # can also be specified as the 'EMAIL_USER' environment variable
 #
 # this is the username that'll be used for SMTP authentication. if you are
 # setting DISABLE_EMAIL, you can set this setting to '_unused_' (or anything
 # else).
-email_user: daniel.yu2022@gmail.com
+email_user: danyu
 
 # can also be specified as the 'EMAIL_PASSWORD' environment variable
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_password: vtpp qoil mphm jtcf
+email_password: NOcap122020!
 
 # can also be specified as the 'SECRET_KEY' environment variable
 #
@@ -174,9 +174,7 @@ email_subject: null
 # spaces, and text separated by two or more newlines is converted into separate
 # paragraphs. it's recommended to use the YAML multiline string syntax when
 # overriding this.
-email_body: 'Hello {name}! \n
-..this is a test for judging \n
-..use this link: {link}'
+email_body: "Hello {name}! this is a test for judging use this link: {link}"
 
 # can also be specified as the 'SEND_STATS' environment variable
 # defaults to 'True'
