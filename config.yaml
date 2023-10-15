@@ -16,7 +16,7 @@ email_from: danyu@bu.edu
 # this is the username that'll be used for SMTP authentication. if you are
 # setting DISABLE_EMAIL, you can set this setting to '_unused_' (or anything
 # else).
-email_user: danyu
+email_user: danyu@bu.edu
 
 # can also be specified as the 'EMAIL_PASSWORD' environment variable
 #
