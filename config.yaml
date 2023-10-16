@@ -22,7 +22,7 @@ email_user: dan.daniel.yu@gmail.com
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_password: rkqq svaj ywco zzje
+email_password: rvwj ehzo ryma bayy
 
 # can also be specified as the 'SECRET_KEY' environment variable
 #
@@ -127,14 +127,14 @@ wait_message: please wait
 # defaults to 'False'
 #
 # setting this to true disables email functionality.
-disable_email: null
+disable_email: False
 
 # can also be specified as the 'EMAIl_AUTH_MODE' environment variable
 # defaults to 'tls'
 #
 # can either be 'tls', 'ssl' or 'none'. if you are setting DISABLE_EMAIL, you can set
 # this setting to '_unused_' (or anything else).
-email_auth_mode: null
+email_auth_mode: tls
 
 # can also be specified as the 'EMAIL_HOST' environment variable
 # defaults to 'smtp.gmail.com'
@@ -146,11 +146,11 @@ email_auth_mode: null
 #
 # see the troubleshooting guide for more help:
 # https://github.com/anishathalye/gavel/wiki/Troubleshooting
-email_host: null
+email_host: smtp-relay.gmail.com
 
 # can also be specified as the 'EMAIL_PORT' environment variable
 # defaults to '587'
-email_port: null
+email_port: 587
 
 # can also be specified as the 'EMAIL_CC' environment variable
 # defaults to '[]'
@@ -163,7 +163,7 @@ email_cc: null
 # defaults to gavel.constants.DEFAULT_EMAIL_SUBJECT
 #
 # this is the subject line of the email that's sent to judges.
-email_subject: null
+email_subject: Test
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_EMAIL_BODY
