@@ -43,7 +43,7 @@ secret_key: fja;lskdfja;sdfkj;lkj
 # should NOT include that subpath (in this example it would just be set to
 # 'example.com:1337'). this setting is used for emailed links. if you are
 # setting DISABLE_EMAIL, you can omit this setting or set it to null.
-server_name: null
+server_name: gavel.onrender.com
 
 # can also be specified as the 'PROXY' environment variable
 # defaults to 'False'
@@ -127,7 +127,7 @@ wait_message: please wait
 # defaults to 'False'
 #
 # setting this to true disables email functionality.
-disable_email: True
+disable_email: False
 
 # can also be specified as the 'EMAIl_AUTH_MODE' environment variable
 # defaults to 'tls'
@@ -146,7 +146,7 @@ email_auth_mode: tls
 #
 # see the troubleshooting guide for more help:
 # https://github.com/anishathalye/gavel/wiki/Troubleshooting
-email_host: smtp-relay.gmail.com
+email_host: smtp.gmail.com
 
 # can also be specified as the 'EMAIL_PORT' environment variable
 # defaults to '587'
@@ -183,4 +183,4 @@ email_body: "Hello {name}! this is a test for judging use this link: {link}"
 # leave this enabled. if you absolutely need to disable this, please add your
 # event to this list (https://github.com/anishathalye/gavel/wiki/Users), at the
 # very least.
-send_stats: null
+send_stats: True
