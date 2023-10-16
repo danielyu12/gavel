@@ -55,11 +55,11 @@ proxy: null
 
 # can also be specified as the 'DATABASE_URL' or 'DB_URI' environment variable
 # defaults to 'postgresql://localhost/gavel'
-db_uri: postgresql://postgres:fLIrCcM0NtCGdO7oyIHm@containers-us-west-33.railway.app:7011/railway
+db_uri: postgresql://postgres:vExjMRbOiwFRIMoJ6tcV@containers-us-west-56.railway.app:5758/railway
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
-broker_uri: redis://default:J60YFNpvPYyghgw5hivW@containers-us-west-96.railway.app:6360
+broker_uri: redis://default:cAcGssZJWbDQp2ZOTpit@containers-us-west-129.railway.app:7675
 
 # can also be specified as the 'USE_SENDGRID' environment variable
 # defaults to 'False'
