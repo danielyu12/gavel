@@ -55,11 +55,11 @@ proxy: null
 
 # can also be specified as the 'DATABASE_URL' or 'DB_URI' environment variable
 # defaults to 'postgresql://localhost/gavel'
-db_uri: postgres://bostonhacks_gavel_user:01XNixzrvowHYJGc9XGZnbkHHs9WzAJM@dpg-ckimpcgmccbs73aokg3g-a.ohio-postgres.render.com/bostonhacks_gavel
+db_uri: postgresql://postgres:fLIrCcM0NtCGdO7oyIHm@containers-us-west-33.railway.app:7011/railway
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
-broker_uri: redis://red-ckm5nm0u1l6c73f4c0f0:6379
+broker_uri: redis://default:J60YFNpvPYyghgw5hivW@containers-us-west-96.railway.app:6360
 
 # can also be specified as the 'USE_SENDGRID' environment variable
 # defaults to 'False'
