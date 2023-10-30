@@ -3,7 +3,7 @@
 #####################
 
 # can also be specified as the 'ADMIN_PASSWORD' environment variable
-admin_password: NOcap122020!
+admin_password: bostonhacks123
 
 # can also be specified as the 'EMAIL_FROM' environment variable
 #
@@ -55,7 +55,7 @@ proxy: null
 
 # can also be specified as the 'DATABASE_URL' or 'DB_URI' environment variable
 # defaults to 'postgresql://localhost/gavel'
-db_uri: postgresql://postgres:vExjMRbOiwFRIMoJ6tcV@containers-us-west-56.railway.app:5758/railway
+db_uri: postgresql://postgres:KLlzrUcFvdnYKYKFIjRz@containers-us-west-101.railway.app:7202/railway
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
