@@ -55,7 +55,7 @@ proxy: null
 
 # can also be specified as the 'DATABASE_URL' or 'DB_URI' environment variable
 # defaults to 'postgresql://localhost/gavel'
-db_uri: postgresql://postgres:e5ca6b5d5CbeDda1e2B1DA3CA24c6Bba@viaduct.proxy.rlwy.net:24361/railway
+db_uri: postgresql://postgres:DC4f44e4DdeD42D3agGfAac5*2d*fF-b@roundhouse.proxy.rlwy.net:18739/railway
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
